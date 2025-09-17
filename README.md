@@ -11,7 +11,7 @@ resources - list of resources and tools
 
 
 ## Wireframe
-![wireframe pic](https://github.com/znasser46/znasser46/issues/1#issue-3424988334)
+![wireframe pic](docs/images/home-wireframe-project-alpha.jpg)
 
 
 ## How to view
