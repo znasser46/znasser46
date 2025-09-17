@@ -1,6 +1,10 @@
 # znasser46
 Zachary Nasser's repo
 
+##User Story
+
+As a visitor of this website, I want to be able to review the developers information, so that I can gain insight about their capabilities.
+
 ## Overview and Map
 This is a developer website that includes a homepage, blog, projects, and resources.
 
