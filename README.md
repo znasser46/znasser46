@@ -11,7 +11,7 @@ resources - list of resources and tools
 
 
 ## Wireframe
-![wireframe pic](images/home-wireframe-project-alpha.png)
+![wireframe pic](images/home-wireframe-project-alpha.jpg)
 
 
 ## How to view
