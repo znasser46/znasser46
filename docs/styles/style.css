@@ -21,7 +21,8 @@ h1 {
 }
 
 #gameSS {
-  width: 240px;
-  height: 160px;
+  width: 240px !important;
+  height: 160px !important;
 }
+
 
