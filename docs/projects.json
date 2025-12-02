@@ -1,37 +1,19 @@
 {
     "projects": [
         {
-    "title": "Matching Game",
+    "name": "Matching Game",
     "desc": "This is a matching game for the project bravo",
     "img": "../images/matchingGame.png",
     "repo": "https://github.com/znasser46/zn_matching_game",
     "app": "https://znasser46.github.io/zn_matching_game/"
   }, {
-    "title": "Game Collection",
+    "name": "Game Collection",
     "desc": "This website contains a collection of games.",
     "img": "../images/gameCollectionWebsite.png",
     "repo": "",
     "app": "https://znasser46.github.io/project-charile/"
   }, {
-    "title": "",
-    "desc": "",
-    "img": "",
-    "repo": "",
-    "app": ""
-  }, {
-    "title": "",
-    "desc": "",
-    "img": "",
-    "repo": "",
-    "app": ""
-  }, {
-    "title": "",
-    "desc": "",
-    "img": "",
-    "repo": "",
-    "app": ""
-  }, {
-    "title": "",
+    "name": "",
     "desc": "",
     "img": "",
     "repo": "",
