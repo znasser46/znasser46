@@ -3,8 +3,8 @@
         {
     "name": "Matching Game",
     "desc": "This is a matching game for the project bravo",
-    "img": "docs/images/matchingGame.png",
-    "repo": "https://znasser46.github.io/znasser46/images/matchingGame.png",
+    "img": "https://znasser46.github.io/znasser46/images/matchingGame.png",
+    "repo": "https://github.com/znasser46/zn_matching_game",
     "app": "https://znasser46.github.io/zn_matching_game/"
   }, {
     "name": "Game Collection",
