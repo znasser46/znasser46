@@ -4,18 +4,18 @@
     "name": "Matching Game",
     "desc": "This is a matching game for the project bravo",
     "img": "docs/images/matchingGame.png",
-    "repo": "https://github.com/znasser46/zn_matching_game",
+    "repo": "https://znasser46.github.io/znasser46/images/matchingGame.png",
     "app": "https://znasser46.github.io/zn_matching_game/"
   }, {
     "name": "Game Collection",
     "desc": "This website contains a collection of games.",
-    "img": "docs/images/gameCollectionWebsite.png",
+    "img": "https://znasser46.github.io/znasser46/images/gameCollectionWebsite.png",
     "repo": "https://github.com/znasser46/project-charile",
     "app": "https://znasser46.github.io/project-charile/"
   }, {
     "name": "Improved Interface",
     "desc": "This is a website that displays a proposed solution to the Microsoft Word Interface",
-    "img": "docs/images/improvedInterfaceWebsite.png",
+    "img": "https://znasser46.github.io/znasser46/images/improvedInterfaceWebsite.png",
     "repo": "https://github.com/znasser46/project-delta",
     "app": "https://znasser46.github.io/project-delta/"
   }
