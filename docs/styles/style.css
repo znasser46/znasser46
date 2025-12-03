@@ -20,9 +20,29 @@ h1 {
 
 }
 
-#gameSS {
-  width: 240px !important;
-  height: 160px !important;
+img {
+  max-width: 600px;
+  height: 350px;
+}
+
+#projectCardSet {
+  display: flex;
+  flex-wrap: wrap;       /* lets cards go to next line if needed */
+  gap: 20px;             /* spacing between cards */
+  padding: 20px;
+  justify-content: center; /* center cards in row */
+}
+
+.cards {
+  flex: 1 1 280px;       /* grow, shrink, base width */
+  max-width: 500px;      /* optional max width */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 
 
