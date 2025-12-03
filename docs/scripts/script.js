@@ -18,7 +18,7 @@ fetch('https://znasser46.github.io/znasser46/projects.json').then(response => re
         data.projects.forEach(project => {
             console.log(project);
             const card = document.createElement('div');
-            card.className = "cards";
+            card.className = "projectCards cards";
             const cardName = document.createElement('h1');
             cardName.textContent = `${project.name}`;
             card.appendChild(cardName);
@@ -60,9 +60,18 @@ fetch('https://znasser46.github.io/znasser46/achievements.json').then(response =
         
         const achievementCardSet = document.getElementById('achievementCardSet');
         data.achievements.forEach(achievement => {
+
+          
+          
+
             console.log(achievement);
             const card = document.createElement('div');
-            card.className = "cards";
+            card.className = "achievementCards cards";
+
+            const trophyIcon = document.createElement("i")
+            trophyIcon.className = "bi bi-trophy-fill trophyIcon";
+            card.appendChild(trophyIcon);
+          
             const cardName = document.createElement('h1');
             cardName.textContent = `${achievement.name}`;
             card.appendChild(cardName);

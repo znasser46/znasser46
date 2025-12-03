@@ -6,19 +6,32 @@ h1 {
   text-align: center;
 }
 
-.dev-card {
-  font-family: "Montserrat";
-  width: 350px;
-}
-
-.dev-card button[type="button"] {
-  font-size: 1.1rem;
-}
-
-.dev-card a:hover {
-  background-color: lightskyblue;
+h2 {
+text-align: center;
 
 }
+
+.landingContainer {
+  display: flex;
+  flex-direction: column;       /* stack greeting and card vertically */
+  justify-content: center;      /* vertical centering for all children */
+  align-items: center;          /* horizontal centering */
+  height: 85vh;                /* full viewport height */
+  background-color: beige;
+  gap: 20px;                    /* spacing between greeting and card */
+}
+
+
+#titleCard {
+  background-color: white;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+   border-radius: 12px;
+   margin: 15px;
+}
+
+
 
 img {
   max-width: 600px;
@@ -31,9 +44,19 @@ img {
   gap: 20px;             /* spacing between cards */
   padding: 20px;
   justify-content: center; /* center cards in row */
+  background-color: rgb(62, 142, 62);
 }
 
-.cards {
+
+.trophyIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: gold;
+}
+
+
+.projectCards {
   flex: 1 1 280px;       /* grow, shrink, base width */
   max-width: 500px;      /* optional max width */
   border-radius: 12px;
@@ -43,6 +66,57 @@ img {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.achievementCards {
+   flex: 1 1 280px;       /* grow, shrink, base width */
+  max-width: 500px;      /* optional max width */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
+  position: relative;
 }
 
 
+footer {
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
+
+
+#projectSection {
+  background-color: rgb(62, 142, 62);
+  justify-content: center;
+  text-align: center;
+}
+
+.welcomeCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #55ba41;
+  width: 500px;
+  border: black  solid 2px ;
+  border-radius: 12px;
+  flex-direction: column;
+
+}
+
+#greeting {
+top: 0px;
+;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
