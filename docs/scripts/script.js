@@ -1,16 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
    console.log("document loaded");
-   document.getElementById('onClick').addEventListener('click', onClick); 
- }
+   const landing = document.querySelector('.landingContainer');
+const themeToggleBtn = document.getElementById('themeToggle');
+
+themeToggleBtn.addEventListener('click', () => {
+    landing.classList.toggle('switchTheme');
+
+    });
+   
+}
 );
 
-function onClick () {
-  console.log('in onClick event');
-  document.getElementById('onClick').style.transform = 'rotate(15deg)'
-  console.log('after rotation');
-}
+
 
 // script to pull data from json file and create project cards
+try {
 fetch('https://znasser46.github.io/znasser46/projects.json').then(response => response.json())
     .then(data => {
         
@@ -50,7 +54,6 @@ fetch('https://znasser46.github.io/znasser46/projects.json').then(response => re
             projectLink.target = "_blank";
             card.appendChild(projectLink);
 
-            // card.textContent = ` ${project.repo}, ${project.app}, ${project.img}`;
             
             projectCardSet.appendChild(card);
 
@@ -58,9 +61,13 @@ fetch('https://znasser46.github.io/znasser46/projects.json').then(response => re
         });
        
     })
-    .catch(error => console.error('Error fetching app ideas:', error));
+  } catch(error) {
+    console.error('Error fetching project data:', error);
+  }
+
 
     // script to pull data from json file and create achievement cards
+try {   
 fetch('https://znasser46.github.io/znasser46/achievements.json').then(response => response.json())
     .then(data => {
         
@@ -93,4 +100,6 @@ fetch('https://znasser46.github.io/znasser46/achievements.json').then(response =
         });
        
     })
-    .catch(error => console.error('Error fetching app ideas:', error));
+    } catch(error) {
+    console.error('Error fetching achievement data:', error);
+  }

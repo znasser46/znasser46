@@ -17,13 +17,18 @@ p {
 
 .landingContainer {
   display: flex;
-  flex-direction: column;       /* stack greeting and card vertically */
-  justify-content: center;      /* vertical centering for all children */
-  align-items: center;          /* horizontal centering */
-  height: 82vh;                /* full viewport height */
+  flex-direction: column;       
+  justify-content: center;     
+  align-items: center;          
+  height: 82vh;               
   background-color: rgb(189, 239, 185);
-  gap: 20px;                    /* spacing between greeting and card */
+  gap: 20px;                   
 }
+
+.switchTheme {
+  background-color: #3f89b9;
+}
+
 
 
 #titleCard {
@@ -44,19 +49,19 @@ img {
 
 #projectCardSet {
   display: flex;
-  flex-wrap: wrap;       /* lets cards go to next line if needed */
-  gap: 20px;             /* spacing between cards */
+  flex-wrap: wrap;       
+  gap: 20px;             
   padding: 20px;
-  justify-content: center; /* center cards in row */
+  justify-content: center; 
   background-color: rgb(189, 239, 185);
 }
 
 #achievementCardSet {
   display: flex;
-  flex-wrap: wrap;       /* lets cards go to next line if needed */
-  gap: 20px;             /* spacing between cards */
+  flex-wrap: wrap;       
+  gap: 20px;             
   padding: 20px;
-  justify-content: center; /* center cards in row */
+  justify-content: center; 
   background-color: rgb(189, 239, 185);
 }
 
@@ -70,8 +75,8 @@ img {
 
 
 .projectCards {
-  flex: 1 1 280px;       /* grow, shrink, base width */
-  max-width: 500px;      /* optional max width */
+  
+  max-width: 520px;    
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 15px;
@@ -85,9 +90,8 @@ img {
 }
 
 .achievementCards {
-   flex: 1 1 280px; 
-   height: 200px;      /* grow, shrink, base width */
-  max-width: 500px;      /* optional max width */
+   height: 200px;     
+  max-width: 400px;     
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 15px;
@@ -103,8 +107,8 @@ img {
 footer {
   width: 100%;
   text-align: center;
-  background-color: #f8f9fa; /* optional */
-  padding: 10px 0; /* optional */
+  background-color: #f8f9fa; 
+  padding: 10px 0; 
 }
 
 
