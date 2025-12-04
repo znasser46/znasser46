@@ -2,26 +2,16 @@
     "achievements": [
         {
     "name": "codeAcademy Web Development Fundamentals",
-    "desc": "",
-    "img": "",
-    "app": ""
+    "desc": "Completed many Web Development Fundamental courses with focuses on HTML, CSS, Javascript, and JQuery"
   }, {
     "name": "Prsidents List",
-    "desc": "2022-2025",
-    "img": "",
-    "app": ""
+    "desc": "2022-2025"
   }, {
     "name": "Deans List",
-    "desc": "Spring 2024",
-    "img": "",
-    "repo": "",
-    "app": ""
+    "desc": "Spring 2024"
   }, {
     "name": "Computing Excellence",
-    "desc": "2022-2025",
-    "img": "",
-    "repo": "",
-    "app": ""
+    "desc": "2022-2025"
   }
         
     ]
