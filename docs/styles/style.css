@@ -11,13 +11,17 @@ text-align: center;
 
 }
 
+p {
+  font-size: larger;
+}
+
 .landingContainer {
   display: flex;
   flex-direction: column;       /* stack greeting and card vertically */
   justify-content: center;      /* vertical centering for all children */
   align-items: center;          /* horizontal centering */
-  height: 85vh;                /* full viewport height */
-  background-color: beige;
+  height: 82vh;                /* full viewport height */
+  background-color: rgb(189, 239, 185);
   gap: 20px;                    /* spacing between greeting and card */
 }
 
@@ -44,7 +48,16 @@ img {
   gap: 20px;             /* spacing between cards */
   padding: 20px;
   justify-content: center; /* center cards in row */
-  background-color: rgb(62, 142, 62);
+  background-color: rgb(189, 239, 185);
+}
+
+#achievementCardSet {
+  display: flex;
+  flex-wrap: wrap;       /* lets cards go to next line if needed */
+  gap: 20px;             /* spacing between cards */
+  padding: 20px;
+  justify-content: center; /* center cards in row */
+  background-color: rgb(189, 239, 185);
 }
 
 
@@ -68,17 +81,19 @@ img {
   text-align: center;
   background-color: white;
   position: relative;
+  height: 560px;
 }
 
 .achievementCards {
-   flex: 1 1 280px;       /* grow, shrink, base width */
+   flex: 1 1 280px; 
+   height: 200px;      /* grow, shrink, base width */
   max-width: 500px;      /* optional max width */
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   background-color: white;
   position: relative;
@@ -86,14 +101,16 @@ img {
 
 
 footer {
-position: fixed;
-bottom: 0px;
-width: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fa; /* optional */
+  padding: 10px 0; /* optional */
 }
 
 
+
 #projectSection {
-  background-color: rgb(62, 142, 62);
+  background-color:  rgb(189, 239, 185);
   justify-content: center;
   text-align: center;
 }
@@ -102,8 +119,9 @@ width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #55ba41;
-  width: 500px;
+  background-color: white;
+  height: 300px;
+  width: 600px;
   border: black  solid 2px ;
   border-radius: 12px;
   flex-direction: column;
@@ -112,7 +130,7 @@ width: 100%;
 
 #greeting {
 top: 0px;
-;
+
 }
 
 .buttonRow {
@@ -120,3 +138,4 @@ top: 0px;
   justify-content: center;
   gap: 12px;
 }
+
