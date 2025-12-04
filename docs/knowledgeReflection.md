@@ -65,7 +65,7 @@ validation Tools:
 
 # Architecture = how it all fits together, including your dev processes (the management aspect)
 
-![Architecture Flow]()
+![Architecture Flow](https://znasser46.github.io/znasser46/images/architectureFlow.png)
 
 
 Agile processes?  User story, issue cards 
@@ -77,3 +77,4 @@ Local code to repo to pages…and everything in between
 A final Takeaway 
 Provide a specific tech & process advice to your past self
 What would’ve helped you get “spun up” better at the start of your WebDev journey 
+
