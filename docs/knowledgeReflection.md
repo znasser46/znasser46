@@ -78,7 +78,8 @@ WorkFLow:
 
 
 ## A final Takeaway:
-"Understand the ways to edit code locally and connect it to my hosted site fully. This provides a much more seamless experience overall."
+"Understand the ways to edit code locally and connect it to my hosted site fully. This provides a much more seamless experience overall. This would help prevent updating code locally and not seeing the change because of it not being connected to the live app."
+
 
 
 
