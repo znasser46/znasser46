@@ -25,7 +25,7 @@ Sources: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 
 Explain your APP infra & arch
-# Infrastructure = tech stack. ALL the tools, libraries, languages, products used to build this
+# Infrastructure
 Github
 * Pages
 * Source Code
@@ -59,7 +59,7 @@ validation Tools:
 * Lighthouse Validator
 
 
-# Architecture = how it all fits together, including your dev processes (the management aspect)
+# Architecture
 ### User Story:
 * As a web developer I want to create a website to effectively show my skills and projects so that people dont have to search for them seperately.
 
@@ -79,6 +79,7 @@ WorkFLow:
 
 ## A final Takeaway:
 "Understand the ways to edit code locally and connect it to my hosted site fully. This provides a much more seamless experience overall."
+
 
 
 
