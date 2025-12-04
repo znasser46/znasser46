@@ -60,18 +60,27 @@ validation Tools:
 
 
 # Architecture = how it all fits together, including your dev processes (the management aspect)
+### User Story:
+* As a web developer I want to create a website to effectively show my skills and projects so that people dont have to search for them seperately.
+
+WorkFLow:
+* Follows agile processes
+  * Seperated tasks using issues
+  * Frequently updated code in iterations
+* Wireframes created to layout design idea
+* VS code is used to code locally with live server
+* Github is used for deployment
+* Web sources are used frequently for libraries
+
+  
 
 ![Architecture Flow](https://znasser46.github.io/znasser46/images/architectureFlow.png)
 
 
-Agile processes?  User story, issue cards 
-Wireframing, local code to repo, deploying the app 
-A diagram 
-Local code to repo to pages…and everything in between
+## A final Takeaway:
+"Understand the ways to edit code locally and connect it to my hosted site fully. This provides a much more seamless experience overall."
 
 
-A final Takeaway 
-Provide a specific tech & process advice to your past self
-What would’ve helped you get “spun up” better at the start of your WebDev journey 
+
 
 
